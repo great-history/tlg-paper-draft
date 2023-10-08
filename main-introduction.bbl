@@ -1,0 +1,805 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{42}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Shi}\ \emph {et~al.}(2018)\citenamefont {Shi},
+  \citenamefont {Che}, \citenamefont {Zhou}, \citenamefont {Ge}, \citenamefont
+  {Pi}, \citenamefont {Espiritu}, \citenamefont {Taniguchi}, \citenamefont
+  {Watanabe}, \citenamefont {Barlas}, \citenamefont {Lake} \emph
+  {et~al.}}]{shi2018tunable}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Shi}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Che}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Zhou}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Ge}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {Pi}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Espiritu}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Taniguchi}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Watanabe}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Barlas}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Lake}}, \emph {et~al.},\ }\bibfield
+  {title} {\bibinfo {title} {Tunable lifshitz transitions and multiband
+  transport in tetralayer graphene},\ }\href
+  {https://doi.org/https://doi.org/10.1103/PhysRevLett.120.096802} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo
+  {volume} {120}},\ \bibinfo {pages} {096802} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bao}\ \emph {et~al.}(2011)\citenamefont {Bao},
+  \citenamefont {Jing}, \citenamefont {Velasco~Jr}, \citenamefont {Lee},
+  \citenamefont {Liu}, \citenamefont {Tran}, \citenamefont {Standley},
+  \citenamefont {Aykol}, \citenamefont {Cronin}, \citenamefont {Smirnov} \emph
+  {et~al.}}]{bao2011stacking}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Bao}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Jing}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Velasco~Jr}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Lee}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Tran}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Standley}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Aykol}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Cronin}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Smirnov}}, \emph {et~al.},\ }\bibfield
+  {title} {\bibinfo {title} {Stacking-dependent band gap and quantum transport
+  in trilayer graphene},\ }\href
+  {https://doi.org/https://doi.org/10.1038/nphys2103} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature Physics}\ }\textbf {\bibinfo {volume} {7}},\
+  \bibinfo {pages} {948} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Taychatanapat}\ \emph {et~al.}(2011)\citenamefont
+  {Taychatanapat}, \citenamefont {Watanabe}, \citenamefont {Taniguchi},\ and\
+  \citenamefont {Jarillo-Herrero}}]{taychatanapat2011quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Taychatanapat}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Watanabe}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Taniguchi}},\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Jarillo-Herrero}},\ }\bibfield  {title} {\bibinfo {title} {Quantum hall
+  effect and landau-level crossing of dirac fermions in trilayer graphene},\
+  }\href {https://doi.org/https://doi.org/10.1038/nphys2008} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature Physics}\ }\textbf {\bibinfo {volume}
+  {7}},\ \bibinfo {pages} {621} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Campos}\ \emph {et~al.}(2016)\citenamefont {Campos},
+  \citenamefont {Taychatanapat}, \citenamefont {Serbyn}, \citenamefont
+  {Surakitbovorn}, \citenamefont {Watanabe}, \citenamefont {Taniguchi},
+  \citenamefont {Abanin},\ and\ \citenamefont
+  {Jarillo-Herrero}}]{campos2016landau}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~C.}\ \bibnamefont
+  {Campos}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Taychatanapat}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Serbyn}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Surakitbovorn}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Watanabe}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Taniguchi}},
+  \bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont {Abanin}},\ and\
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Jarillo-Herrero}},\
+  }\bibfield  {title} {\bibinfo {title} {Landau level splittings, phase
+  transitions, and nonuniform charge distribution in trilayer graphene},\
+  }\href {https://doi.org/https://doi.org/10.1103/PhysRevLett.117.066601}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review Letters}\
+  }\textbf {\bibinfo {volume} {117}},\ \bibinfo {pages} {066601} (\bibinfo
+  {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Che}\ \emph {et~al.}(2020{\natexlab{a}})\citenamefont
+  {Che}, \citenamefont {Stepanov}, \citenamefont {Ge}, \citenamefont {Zhu},
+  \citenamefont {Wang}, \citenamefont {Lee}, \citenamefont {Myhro},
+  \citenamefont {Shi}, \citenamefont {Chen}, \citenamefont {Pi} \emph
+  {et~al.}}]{che2020substrate}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Che}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Stepanov}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ge}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Zhu}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Lee}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Myhro}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Shi}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {Pi}}, \emph {et~al.},\ }\bibfield  {title} {\bibinfo
+  {title} {Substrate-dependent band structures in trilayer graphene/h- bn
+  heterostructures},\ }\href
+  {https://doi.org/https://doi.org/10.1103/PhysRevLett.125.246401} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo
+  {volume} {125}},\ \bibinfo {pages} {246401} (\bibinfo {year}
+  {2020}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Shimazaki}\ \emph {et~al.}(2016)\citenamefont
+  {Shimazaki}, \citenamefont {Yoshizawa}, \citenamefont {Borzenets},
+  \citenamefont {Wang}, \citenamefont {Liu}, \citenamefont {Watanabe},
+  \citenamefont {Taniguchi}, \citenamefont {Kim}, \citenamefont {Yamamoto},\
+  and\ \citenamefont {Tarucha}}]{shimazaki2016landau}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Shimazaki}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Yoshizawa}}, \bibinfo {author} {\bibfnamefont {I.~V.}\ \bibnamefont
+  {Borzenets}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Wang}},
+  \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Liu}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Watanabe}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Kim}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Yamamoto}},\ and\ \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Tarucha}},\ }\bibfield  {title} {\bibinfo {title} {Landau
+  level evolution driven by band hybridization in mirror symmetry broken
+  aba-stacked trilayer graphene},\ }\bibfield  {journal} {\bibinfo  {journal}
+  {arXiv preprint arXiv:1611.02395}\ }\href
+  {https://doi.org/https://doi.org/10.48550/arXiv.1611.02395}
+  {https://doi.org/10.48550/arXiv.1611.02395} (\bibinfo {year}
+  {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2012)\citenamefont {Zhang},
+  \citenamefont {Tilahun},\ and\ \citenamefont {MacDonald}}]{zhang2012hund}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Tilahun}},\
+  and\ \bibinfo {author} {\bibfnamefont {A.~H.}\ \bibnamefont {MacDonald}},\
+  }\bibfield  {title} {\bibinfo {title} {Hund's rules for the n= 0 landau
+  levels of trilayer graphene},\ }\href
+  {https://doi.org/https://doi.org/10.1103/PhysRevB.85.165139} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf {\bibinfo
+  {volume} {85}},\ \bibinfo {pages} {165139} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Young}\ \emph {et~al.}(2012)\citenamefont {Young},
+  \citenamefont {Dean}, \citenamefont {Wang}, \citenamefont {Ren},
+  \citenamefont {Cadden-Zimansky}, \citenamefont {Watanabe}, \citenamefont
+  {Taniguchi}, \citenamefont {Hone}, \citenamefont {Shepard},\ and\
+  \citenamefont {Kim}}]{young2012spin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~F.}\ \bibnamefont
+  {Young}}, \bibinfo {author} {\bibfnamefont {C.~R.}\ \bibnamefont {Dean}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Wang}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Ren}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Cadden-Zimansky}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Watanabe}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Hone}}, \bibinfo {author} {\bibfnamefont {K.~L.}\
+  \bibnamefont {Shepard}},\ and\ \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Kim}},\ }\bibfield  {title} {\bibinfo {title} {Spin and
+  valley quantum hall ferromagnetism in graphene},\ }\href
+  {https://doi.org/https://doi.org/10.1038/nphys2307} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature Physics}\ }\textbf {\bibinfo {volume} {8}},\
+  \bibinfo {pages} {550} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Liu}\ \emph {et~al.}(2022)\citenamefont {Liu},
+  \citenamefont {Farahi}, \citenamefont {Chiu}, \citenamefont {Papic},
+  \citenamefont {Watanabe}, \citenamefont {Taniguchi}, \citenamefont
+  {Zaletel},\ and\ \citenamefont {Yazdani}}]{liu2022visualizing}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Farahi}},
+  \bibinfo {author} {\bibfnamefont {C.-L.}\ \bibnamefont {Chiu}}, \bibinfo
+  {author} {\bibfnamefont {Z.}~\bibnamefont {Papic}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Watanabe}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author}
+  {\bibfnamefont {M.~P.}\ \bibnamefont {Zaletel}},\ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Yazdani}},\ }\bibfield  {title} {\bibinfo
+  {title} {Visualizing broken symmetry and topological defects in a quantum
+  hall ferromagnet},\ }\href
+  {https://doi.org/https://doi.org/10.1126/science.abm3770} {\bibfield
+  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
+  {375}},\ \bibinfo {pages} {321} (\bibinfo {year} {2022})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Coissard}\ \emph {et~al.}(2022)\citenamefont
+  {Coissard}, \citenamefont {Wander}, \citenamefont {Vignaud}, \citenamefont
+  {Grushin}, \citenamefont {Repellin}, \citenamefont {Watanabe}, \citenamefont
+  {Taniguchi}, \citenamefont {Gay}, \citenamefont {Winkelmann}, \citenamefont
+  {Courtois} \emph {et~al.}}]{coissard2022imaging}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Coissard}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Wander}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Vignaud}}, \bibinfo
+  {author} {\bibfnamefont {A.~G.}\ \bibnamefont {Grushin}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Repellin}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Watanabe}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Gay}}, \bibinfo {author} {\bibfnamefont
+  {C.~B.}\ \bibnamefont {Winkelmann}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Courtois}}, \emph {et~al.},\ }\bibfield  {title} {\bibinfo
+  {title} {Imaging tunable quantum hall broken-symmetry orders in graphene},\
+  }\href {https://doi.org/https://doi.org/10.1038/s41586-022-04513-7}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo
+  {volume} {605}},\ \bibinfo {pages} {51} (\bibinfo {year} {2022})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hunt}\ \emph {et~al.}(2013)\citenamefont {Hunt},
+  \citenamefont {Sanchez-Yamagishi}, \citenamefont {Young}, \citenamefont
+  {Yankowitz}, \citenamefont {LeRoy}, \citenamefont {Watanabe}, \citenamefont
+  {Taniguchi}, \citenamefont {Moon}, \citenamefont {Koshino}, \citenamefont
+  {Jarillo-Herrero} \emph {et~al.}}]{hunt2013massive}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Hunt}}, \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {Sanchez-Yamagishi}}, \bibinfo {author} {\bibfnamefont {A.~F.}\ \bibnamefont
+  {Young}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Yankowitz}},
+  \bibinfo {author} {\bibfnamefont {B.~J.}\ \bibnamefont {LeRoy}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Watanabe}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Moon}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Koshino}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Jarillo-Herrero}}, \emph {et~al.},\ }\bibfield  {title}
+  {\bibinfo {title} {Massive dirac fermions and hofstadter butterfly in a van
+  der waals heterostructure},\ }\href
+  {https://doi.org/https://doi.org/10.1126/science.1237240} {\bibfield
+  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
+  {340}},\ \bibinfo {pages} {1427} (\bibinfo {year} {2013})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Yu}\ \emph {et~al.}(2014)\citenamefont {Yu},
+  \citenamefont {Gorbachev}, \citenamefont {Tu}, \citenamefont {Kretinin},
+  \citenamefont {Cao}, \citenamefont {Jalil}, \citenamefont {Withers},
+  \citenamefont {Ponomarenko}, \citenamefont {Piot}, \citenamefont {Potemski}
+  \emph {et~al.}}]{yu2014hierarchy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Yu}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Gorbachev}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Tu}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Kretinin}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Cao}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Jalil}}, \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {Withers}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Ponomarenko}}, \bibinfo {author} {\bibfnamefont
+  {B.}~\bibnamefont {Piot}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Potemski}}, \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title}
+  {Hierarchy of hofstadter states and replica quantum hall ferromagnetism in
+  graphene superlattices},\ }\href
+  {https://doi.org/https://doi.org/10.1038/nphys2979} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature physics}\ }\textbf {\bibinfo {volume} {10}},\
+  \bibinfo {pages} {525} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hunt}\ \emph {et~al.}(2017)\citenamefont {Hunt},
+  \citenamefont {Li}, \citenamefont {Zibrov}, \citenamefont {Wang},
+  \citenamefont {Taniguchi}, \citenamefont {Watanabe}, \citenamefont {Hone},
+  \citenamefont {Dean}, \citenamefont {Zaletel}, \citenamefont {Ashoori} \emph
+  {et~al.}}]{hunt2017direct}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Hunt}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Li}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Zibrov}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Watanabe}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Hone}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Dean}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Zaletel}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Ashoori}}, \emph
+  {et~al.},\ }\bibfield  {title} {\bibinfo {title} {Direct measurement of
+  discrete valley and orbital quantum numbers in bilayer graphene},\ }\href
+  {https://doi.org/https://doi.org/10.1038/s41467-017-00824-w} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature communications}\ }\textbf {\bibinfo
+  {volume} {8}},\ \bibinfo {pages} {948} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Lee}\ \emph {et~al.}(2014)\citenamefont {Lee},
+  \citenamefont {Fallahazad}, \citenamefont {Xue}, \citenamefont {Dillen},
+  \citenamefont {Kim}, \citenamefont {Taniguchi}, \citenamefont {Watanabe},\
+  and\ \citenamefont {Tutuc}}]{lee2014chemical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Lee}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Fallahazad}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Xue}}, \bibinfo {author}
+  {\bibfnamefont {D.~C.}\ \bibnamefont {Dillen}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Kim}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Watanabe}},\ and\ \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {Tutuc}},\ }\bibfield  {title} {\bibinfo {title} {Chemical
+  potential and quantum hall ferromagnetism in bilayer graphene},\ }\href
+  {https://doi.org/https://doi.org/10.1126/science.1251003} {\bibfield
+  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
+  {345}},\ \bibinfo {pages} {58} (\bibinfo {year} {2014})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Lee}\ \emph {et~al.}(2013)\citenamefont {Lee},
+  \citenamefont {Velasco~Jr}, \citenamefont {Tran}, \citenamefont {Zhang},
+  \citenamefont {Bao}, \citenamefont {Jing}, \citenamefont {Myhro},
+  \citenamefont {Smirnov},\ and\ \citenamefont {Lau}}]{lee2013broken}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Lee}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Velasco~Jr}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Tran}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Zhang}}, \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {Bao}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Jing}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Myhro}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Smirnov}},\ and\ \bibinfo
+  {author} {\bibfnamefont {C.~N.}\ \bibnamefont {Lau}},\ }\bibfield  {title}
+  {\bibinfo {title} {Broken symmetry quantum hall states in dual-gated aba
+  trilayer graphene},\ }\href
+  {https://doi.org/https://doi.org/10.1021/nl4000757} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nano letters}\ }\textbf {\bibinfo {volume} {13}},\
+  \bibinfo {pages} {1627} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stepanov}\ \emph {et~al.}(2016)\citenamefont
+  {Stepanov}, \citenamefont {Barlas}, \citenamefont {Espiritu}, \citenamefont
+  {Che}, \citenamefont {Watanabe}, \citenamefont {Taniguchi}, \citenamefont
+  {Smirnov},\ and\ \citenamefont {Lau}}]{stepanov2016tunable}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Stepanov}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Barlas}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Espiritu}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Che}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Watanabe}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Smirnov}},\ and\ \bibinfo {author}
+  {\bibfnamefont {C.~N.}\ \bibnamefont {Lau}},\ }\bibfield  {title} {\bibinfo
+  {title} {Tunable symmetries of integer and fractional quantum hall phases in
+  heterostructures with multiple dirac bands},\ }\href
+  {https://doi.org/https://doi.org/10.1103/PhysRevLett.117.076807} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo
+  {volume} {117}},\ \bibinfo {pages} {076807} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Datta}\ \emph {et~al.}(2017)\citenamefont {Datta},
+  \citenamefont {Dey}, \citenamefont {Samanta}, \citenamefont {Agarwal},
+  \citenamefont {Borah}, \citenamefont {Watanabe}, \citenamefont {Taniguchi},
+  \citenamefont {Sensarma},\ and\ \citenamefont {Deshmukh}}]{datta2017strong}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Datta}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Dey}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Samanta}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Agarwal}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Borah}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Watanabe}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Sensarma}},\ and\ \bibinfo {author} {\bibfnamefont
+  {M.~M.}\ \bibnamefont {Deshmukh}},\ }\bibfield  {title} {\bibinfo {title}
+  {Strong electronic interaction and multiple quantum hall ferromagnetic phases
+  in trilayer graphene},\ }\href
+  {https://doi.org/https://doi.org/10.1038/ncomms14518} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature communications}\ }\textbf {\bibinfo {volume}
+  {8}},\ \bibinfo {pages} {14518} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Weitz}\ \emph {et~al.}(2010)\citenamefont {Weitz},
+  \citenamefont {Allen}, \citenamefont {Feldman}, \citenamefont {Martin},\ and\
+  \citenamefont {Yacoby}}]{weitz2010broken}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~T.}\ \bibnamefont
+  {Weitz}}, \bibinfo {author} {\bibfnamefont {M.~T.}\ \bibnamefont {Allen}},
+  \bibinfo {author} {\bibfnamefont {B.~E.}\ \bibnamefont {Feldman}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Martin}},\ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Yacoby}},\ }\bibfield  {title} {\bibinfo
+  {title} {Broken-symmetry states in doubly gated suspended bilayer graphene},\
+  }\href {https://doi.org/https://doi.org/10.1126/science.1194988} {\bibfield
+  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
+  {330}},\ \bibinfo {pages} {812} (\bibinfo {year} {2010})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Stepanov}\ \emph {et~al.}(2019)\citenamefont
+  {Stepanov}, \citenamefont {Barlas}, \citenamefont {Che}, \citenamefont
+  {Myhro}, \citenamefont {Voigt}, \citenamefont {Pi}, \citenamefont {Watanabe},
+  \citenamefont {Taniguchi}, \citenamefont {Smirnov}, \citenamefont {Zhang}
+  \emph {et~al.}}]{stepanov2019quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Stepanov}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Barlas}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Che}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Myhro}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Voigt}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {Pi}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Watanabe}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Taniguchi}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Smirnov}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Zhang}}, \emph {et~al.},\
+  }\bibfield  {title} {\bibinfo {title} {Quantum parity hall effect in
+  bernal-stacked trilayer graphene},\ }\href
+  {https://doi.org/https://doi.org/10.1073/pnas.1820835116} {\bibfield
+  {journal} {\bibinfo  {journal} {Proceedings of the National Academy of
+  Sciences}\ }\textbf {\bibinfo {volume} {116}},\ \bibinfo {pages} {10286}
+  (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zibrov}\ \emph {et~al.}(2018)\citenamefont {Zibrov},
+  \citenamefont {Rao}, \citenamefont {Kometter}, \citenamefont {Spanton},
+  \citenamefont {Li}, \citenamefont {Dean}, \citenamefont {Taniguchi},
+  \citenamefont {Watanabe}, \citenamefont {Serbyn},\ and\ \citenamefont
+  {Young}}]{zibrov2018emergent}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {Zibrov}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Rao}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Kometter}}, \bibinfo
+  {author} {\bibfnamefont {E.~M.}\ \bibnamefont {Spanton}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Li}}, \bibinfo {author} {\bibfnamefont
+  {C.~R.}\ \bibnamefont {Dean}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Watanabe}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Serbyn}},\ and\ \bibinfo {author} {\bibfnamefont {A.~F.}\
+  \bibnamefont {Young}},\ }\bibfield  {title} {\bibinfo {title} {Emergent dirac
+  gullies and gully-symmetry-breaking quantum hall states in a b a trilayer
+  graphene},\ }\href
+  {https://doi.org/https://doi.org/10.1103/PhysRevLett.121.167601} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo
+  {volume} {121}},\ \bibinfo {pages} {167601} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Winterer}\ \emph {et~al.}(2022)\citenamefont
+  {Winterer}, \citenamefont {Seiler}, \citenamefont {Ghazaryan}, \citenamefont
+  {Geisenhof}, \citenamefont {Watanabe}, \citenamefont {Taniguchi},
+  \citenamefont {Serbyn},\ and\ \citenamefont
+  {Weitz}}]{winterer2022spontaneous}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Winterer}}, \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont
+  {Seiler}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Ghazaryan}},
+  \bibinfo {author} {\bibfnamefont {F.~R.}\ \bibnamefont {Geisenhof}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Watanabe}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Serbyn}},\ and\ \bibinfo {author}
+  {\bibfnamefont {R.~T.}\ \bibnamefont {Weitz}},\ }\bibfield  {title} {\bibinfo
+  {title} {Spontaneous gully-polarized quantum hall states in aba trilayer
+  graphene},\ }\href
+  {https://doi.org/https://doi.org/10.1021/acs.nanolett.2c00435} {\bibfield
+  {journal} {\bibinfo  {journal} {Nano Letters}\ }\textbf {\bibinfo {volume}
+  {22}},\ \bibinfo {pages} {3317} (\bibinfo {year} {2022})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2011)\citenamefont {Zhang},
+  \citenamefont {Jung}, \citenamefont {Fiete}, \citenamefont {Niu},\ and\
+  \citenamefont {MacDonald}}]{zhang2011spontaneous}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Jung}},
+  \bibinfo {author} {\bibfnamefont {G.~A.}\ \bibnamefont {Fiete}}, \bibinfo
+  {author} {\bibfnamefont {Q.}~\bibnamefont {Niu}},\ and\ \bibinfo {author}
+  {\bibfnamefont {A.~H.}\ \bibnamefont {MacDonald}},\ }\bibfield  {title}
+  {\bibinfo {title} {Spontaneous quantum hall states in chirally stacked
+  few-layer graphene systems},\ }\href
+  {https://doi.org/https://doi.org/10.1103/PhysRevLett.106.156801} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo
+  {volume} {106}},\ \bibinfo {pages} {156801} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Young}\ \emph {et~al.}(2014)\citenamefont {Young},
+  \citenamefont {Sanchez-Yamagishi}, \citenamefont {Hunt}, \citenamefont
+  {Choi}, \citenamefont {Watanabe}, \citenamefont {Taniguchi}, \citenamefont
+  {Ashoori},\ and\ \citenamefont {Jarillo-Herrero}}]{young2014tunable}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Young}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Sanchez-Yamagishi}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Hunt}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Choi}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Watanabe}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Ashoori}},\ and\ \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Jarillo-Herrero}},\ }\bibfield  {title}
+  {\bibinfo {title} {Tunable symmetry breaking and helical edge transport in a
+  graphene quantum spin hall state},\ }\href
+  {https://doi.org/https://doi.org/10.1038/nature12800} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {505}},\ \bibinfo
+  {pages} {528} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Veyrat}\ \emph {et~al.}(2020)\citenamefont {Veyrat},
+  \citenamefont {D{\'e}prez}, \citenamefont {Coissard}, \citenamefont {Li},
+  \citenamefont {Gay}, \citenamefont {Watanabe}, \citenamefont {Taniguchi},
+  \citenamefont {Han}, \citenamefont {Piot}, \citenamefont {Sellier} \emph
+  {et~al.}}]{veyrat2020helical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Veyrat}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {D{\'e}prez}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Coissard}}, \bibinfo
+  {author} {\bibfnamefont {X.}~\bibnamefont {Li}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Gay}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Watanabe}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {Han}}, \bibinfo {author} {\bibfnamefont {B.~A.}\
+  \bibnamefont {Piot}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Sellier}}, \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {Helical
+  quantum hall phase in graphene on srtio3},\ }\href
+  {https://doi.org/https://doi.org/10.1126/science.aax8201} {\bibfield
+  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
+  {367}},\ \bibinfo {pages} {781} (\bibinfo {year} {2020})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Geisenhof}\ \emph {et~al.}(2021)\citenamefont
+  {Geisenhof}, \citenamefont {Winterer}, \citenamefont {Seiler}, \citenamefont
+  {Lenz}, \citenamefont {Xu}, \citenamefont {Zhang},\ and\ \citenamefont
+  {Weitz}}]{geisenhof2021quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~R.}\ \bibnamefont
+  {Geisenhof}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Winterer}},
+  \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont {Seiler}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Lenz}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Xu}}, \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {Zhang}},\ and\ \bibinfo {author} {\bibfnamefont {R.~T.}\
+  \bibnamefont {Weitz}},\ }\bibfield  {title} {\bibinfo {title} {Quantum
+  anomalous hall octet driven by orbital magnetism in bilayer graphene},\
+  }\href {https://doi.org/https://doi.org/10.1038/s41586-021-03849-w}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo
+  {volume} {598}},\ \bibinfo {pages} {53} (\bibinfo {year} {2021})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Maher}\ \emph {et~al.}(2013)\citenamefont {Maher},
+  \citenamefont {Dean}, \citenamefont {Young}, \citenamefont {Taniguchi},
+  \citenamefont {Watanabe}, \citenamefont {Shepard}, \citenamefont {Hone},\
+  and\ \citenamefont {Kim}}]{maher2013evidence}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Maher}}, \bibinfo {author} {\bibfnamefont {C.~R.}\ \bibnamefont {Dean}},
+  \bibinfo {author} {\bibfnamefont {A.~F.}\ \bibnamefont {Young}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Watanabe}}, \bibinfo {author}
+  {\bibfnamefont {K.~L.}\ \bibnamefont {Shepard}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Hone}},\ and\ \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Kim}},\ }\bibfield  {title} {\bibinfo
+  {title} {Evidence for a spin phase transition at charge neutrality in bilayer
+  graphene},\ }\href {https://doi.org/https://doi.org/10.1038/nphys2528}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Physics}\ }\textbf
+  {\bibinfo {volume} {9}},\ \bibinfo {pages} {154} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Spanton}\ \emph {et~al.}(2018)\citenamefont
+  {Spanton}, \citenamefont {Zibrov}, \citenamefont {Zhou}, \citenamefont
+  {Taniguchi}, \citenamefont {Watanabe}, \citenamefont {Zaletel},\ and\
+  \citenamefont {Young}}]{spanton2018observation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~M.}\ \bibnamefont
+  {Spanton}}, \bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont {Zibrov}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Zhou}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Watanabe}}, \bibinfo {author}
+  {\bibfnamefont {M.~P.}\ \bibnamefont {Zaletel}},\ and\ \bibinfo {author}
+  {\bibfnamefont {A.~F.}\ \bibnamefont {Young}},\ }\bibfield  {title} {\bibinfo
+  {title} {Observation of fractional chern insulators in a van der waals
+  heterostructure},\ }\href
+  {https://doi.org/https://doi.org/10.1126/science.aan8458} {\bibfield
+  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
+  {360}},\ \bibinfo {pages} {62} (\bibinfo {year} {2018})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Winterer}\ \emph {et~al.}(2023)\citenamefont
+  {Winterer}, \citenamefont {Geisenhof}, \citenamefont {Fernandez},
+  \citenamefont {Seiler}, \citenamefont {Zhang},\ and\ \citenamefont
+  {Weitz}}]{winterer2023ferroelectric}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Winterer}}, \bibinfo {author} {\bibfnamefont {F.~R.}\ \bibnamefont
+  {Geisenhof}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Fernandez}}, \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont
+  {Seiler}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Zhang}},\ and\
+  \bibinfo {author} {\bibfnamefont {R.~T.}\ \bibnamefont {Weitz}},\ }\bibfield
+  {title} {\bibinfo {title} {Ferroelectric and anomalous quantum hall states in
+  bare rhombohedral trilayer graphene},\ }\bibfield  {journal} {\bibinfo
+  {journal} {arXiv preprint arXiv:2305.04950}\ }\href
+  {https://doi.org/https://doi.org/10.48550/arXiv.2305.04950}
+  {https://doi.org/10.48550/arXiv.2305.04950} (\bibinfo {year}
+  {2023})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Han}\ \emph {et~al.}(2023)\citenamefont {Han},
+  \citenamefont {Lu}, \citenamefont {Scuri}, \citenamefont {Sung},
+  \citenamefont {Wang}, \citenamefont {Han}, \citenamefont {Watanabe},
+  \citenamefont {Taniguchi}, \citenamefont {Park},\ and\ \citenamefont
+  {Ju}}]{han2023correlated}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Han}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Lu}}, \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Scuri}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Sung}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Han}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Watanabe}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Taniguchi}}, \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Park}},\ and\ \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Ju}},\ }\bibfield  {title} {\bibinfo
+  {title} {Correlated insulator and chern insulators in pentalayer rhombohedral
+  stacked graphene},\ }\bibfield  {journal} {\bibinfo  {journal} {arXiv
+  preprint arXiv:2305.03151}\ }\href
+  {https://doi.org/https://doi.org/10.1038/s41565-023-01520-1}
+  {https://doi.org/10.1038/s41565-023-01520-1} (\bibinfo {year}
+  {2023})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Qi}\ and\ \citenamefont
+  {Zhang}(2011)}]{qi2011topological}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.-L.}\ \bibnamefont
+  {Qi}}\ and\ \bibinfo {author} {\bibfnamefont {S.-C.}\ \bibnamefont {Zhang}},\
+  }\bibfield  {title} {\bibinfo {title} {Topological insulators and
+  superconductors},\ }\href
+  {https://doi.org/https://doi.org/10.1103/RevModPhys.83.1057} {\bibfield
+  {journal} {\bibinfo  {journal} {Reviews of Modern Physics}\ }\textbf
+  {\bibinfo {volume} {83}},\ \bibinfo {pages} {1057} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hasan}\ and\ \citenamefont
+  {Kane}(2010)}]{hasan2010colloquium}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~Z.}\ \bibnamefont
+  {Hasan}}\ and\ \bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {Kane}},\ }\bibfield  {title} {\bibinfo {title} {Colloquium: topological
+  insulators},\ }\href
+  {https://doi.org/https://doi.org/10.1103/RevModPhys.82.3045} {\bibfield
+  {journal} {\bibinfo  {journal} {Reviews of modern physics}\ }\textbf
+  {\bibinfo {volume} {82}},\ \bibinfo {pages} {3045} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Oreg}\ \emph {et~al.}(2010)\citenamefont {Oreg},
+  \citenamefont {Refael},\ and\ \citenamefont {Von~Oppen}}]{oreg2010helical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Oreg}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Refael}},\ and\
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Von~Oppen}},\ }\bibfield
+  {title} {\bibinfo {title} {Helical liquids and majorana bound states in
+  quantum wires},\ }\href
+  {https://doi.org/https://doi.org/10.1103/PhysRevLett.105.177002} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo
+  {volume} {105}},\ \bibinfo {pages} {177002} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lutchyn}\ \emph {et~al.}(2010)\citenamefont
+  {Lutchyn}, \citenamefont {Sau},\ and\ \citenamefont
+  {Sarma}}]{lutchyn2010majorana}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont
+  {Lutchyn}}, \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont {Sau}},\
+  and\ \bibinfo {author} {\bibfnamefont {S.~D.}\ \bibnamefont {Sarma}},\
+  }\bibfield  {title} {\bibinfo {title} {Majorana fermions and a topological
+  phase transition in semiconductor-superconductor heterostructures},\ }\href
+  {https://doi.org/https://doi.org/10.1103/PhysRevLett.105.077001} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo
+  {volume} {105}},\ \bibinfo {pages} {077001} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kane}\ and\ \citenamefont
+  {Mele}(2005{\natexlab{a}})}]{kane2005quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {Kane}}\ and\ \bibinfo {author} {\bibfnamefont {E.~J.}\ \bibnamefont
+  {Mele}},\ }\bibfield  {title} {\bibinfo {title} {Quantum spin hall effect in
+  graphene},\ }\href
+  {https://doi.org/https://doi.org/10.1103/PhysRevLett.95.226801} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo
+  {volume} {95}},\ \bibinfo {pages} {226801} (\bibinfo {year}
+  {2005}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kane}\ and\ \citenamefont
+  {Mele}(2005{\natexlab{b}})}]{kane2005z}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {Kane}}\ and\ \bibinfo {author} {\bibfnamefont {E.~J.}\ \bibnamefont
+  {Mele}},\ }\bibfield  {title} {\bibinfo {title} {Z 2 topological order and
+  the quantum spin hall effect},\ }\href
+  {https://doi.org/https://doi.org/10.1103/PhysRevLett.95.146802} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo
+  {volume} {95}},\ \bibinfo {pages} {146802} (\bibinfo {year}
+  {2005}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bernevig}\ \emph {et~al.}(2006)\citenamefont
+  {Bernevig}, \citenamefont {Hughes},\ and\ \citenamefont
+  {Zhang}}]{bernevig2006quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~A.}\ \bibnamefont
+  {Bernevig}}, \bibinfo {author} {\bibfnamefont {T.~L.}\ \bibnamefont
+  {Hughes}},\ and\ \bibinfo {author} {\bibfnamefont {S.-C.}\ \bibnamefont
+  {Zhang}},\ }\bibfield  {title} {\bibinfo {title} {Quantum spin hall effect
+  and topological phase transition in hgte quantum wells},\ }\href
+  {https://doi.org/https://doi.org/10.1126/science.1133734} {\bibfield
+  {journal} {\bibinfo  {journal} {science}\ }\textbf {\bibinfo {volume}
+  {314}},\ \bibinfo {pages} {1757} (\bibinfo {year} {2006})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Roth}\ \emph {et~al.}(2009)\citenamefont {Roth},
+  \citenamefont {Br{\"u}ne}, \citenamefont {Buhmann}, \citenamefont
+  {Molenkamp}, \citenamefont {Maciejko}, \citenamefont {Qi},\ and\
+  \citenamefont {Zhang}}]{roth2009nonlocal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Roth}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Br{\"u}ne}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Buhmann}}, \bibinfo
+  {author} {\bibfnamefont {L.~W.}\ \bibnamefont {Molenkamp}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Maciejko}}, \bibinfo {author}
+  {\bibfnamefont {X.-L.}\ \bibnamefont {Qi}},\ and\ \bibinfo {author}
+  {\bibfnamefont {S.-C.}\ \bibnamefont {Zhang}},\ }\bibfield  {title} {\bibinfo
+  {title} {Nonlocal transport in the quantum spin hall state},\ }\href
+  {https://doi.org/https://doi.org/10.1126/science.1174736} {\bibfield
+  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
+  {325}},\ \bibinfo {pages} {294} (\bibinfo {year} {2009})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Che}\ \emph {et~al.}(2020{\natexlab{b}})\citenamefont
+  {Che}, \citenamefont {Shi}, \citenamefont {Yang}, \citenamefont {Tian},
+  \citenamefont {Chen}, \citenamefont {Taniguchi}, \citenamefont {Watanabe},
+  \citenamefont {Smirnov}, \citenamefont {Lau}, \citenamefont {Shimshoni} \emph
+  {et~al.}}]{che2020helical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Che}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Shi}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Yang}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Tian}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Taniguchi}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Watanabe}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Smirnov}}, \bibinfo
+  {author} {\bibfnamefont {C.~N.}\ \bibnamefont {Lau}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Shimshoni}}, \emph {et~al.},\ }\bibfield
+  {title} {\bibinfo {title} {Helical edge states and quantum phase transitions
+  in tetralayer graphene},\ }\href
+  {https://doi.org/https://doi.org/10.1103/PhysRevLett.125.036803} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo
+  {volume} {125}},\ \bibinfo {pages} {036803} (\bibinfo {year}
+  {2020}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2013)\citenamefont {Wang},
+  \citenamefont {Meric}, \citenamefont {Huang}, \citenamefont {Gao},
+  \citenamefont {Gao}, \citenamefont {Tran}, \citenamefont {Taniguchi},
+  \citenamefont {Watanabe}, \citenamefont {Campos}, \citenamefont {Muller}
+  \emph {et~al.}}]{wang2013one}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Meric}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Huang}}, \bibinfo
+  {author} {\bibfnamefont {Q.}~\bibnamefont {Gao}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Gao}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Tran}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Taniguchi}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Watanabe}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Campos}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Muller}}, \emph {et~al.},\
+  }\bibfield  {title} {\bibinfo {title} {One-dimensional electrical contact to
+  a two-dimensional material},\ }\href
+  {https://doi.org/https://doi.org/10.1126/science.1244358} {\bibfield
+  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
+  {342}},\ \bibinfo {pages} {614} (\bibinfo {year} {2013})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Yankowitz}\ \emph {et~al.}(2018)\citenamefont
+  {Yankowitz}, \citenamefont {Jung}, \citenamefont {Laksono}, \citenamefont
+  {Leconte}, \citenamefont {Chittari}, \citenamefont {Watanabe}, \citenamefont
+  {Taniguchi}, \citenamefont {Adam}, \citenamefont {Graf},\ and\ \citenamefont
+  {Dean}}]{yankowitz2018dynamic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Yankowitz}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Jung}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Laksono}}, \bibinfo
+  {author} {\bibfnamefont {N.}~\bibnamefont {Leconte}}, \bibinfo {author}
+  {\bibfnamefont {B.~L.}\ \bibnamefont {Chittari}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Watanabe}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Adam}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Graf}},\ and\ \bibinfo {author} {\bibfnamefont {C.~R.}\
+  \bibnamefont {Dean}},\ }\bibfield  {title} {\bibinfo {title} {Dynamic
+  band-structure tuning of graphene moir{\'e} superlattices with pressure},\
+  }\href {https://doi.org/https://doi.org/10.1038/s41586-018-0107-1} {\bibfield
+   {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume}
+  {557}},\ \bibinfo {pages} {404} (\bibinfo {year} {2018})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Yankowitz}\ \emph {et~al.}(2019)\citenamefont
+  {Yankowitz}, \citenamefont {Chen}, \citenamefont {Polshyn}, \citenamefont
+  {Zhang}, \citenamefont {Watanabe}, \citenamefont {Taniguchi}, \citenamefont
+  {Graf}, \citenamefont {Young},\ and\ \citenamefont
+  {Dean}}]{yankowitz2019tuning}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Yankowitz}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Chen}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Polshyn}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Zhang}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Watanabe}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Graf}}, \bibinfo {author} {\bibfnamefont
+  {A.~F.}\ \bibnamefont {Young}},\ and\ \bibinfo {author} {\bibfnamefont
+  {C.~R.}\ \bibnamefont {Dean}},\ }\bibfield  {title} {\bibinfo {title} {Tuning
+  superconductivity in twisted bilayer graphene},\ }\href
+  {https://doi.org/https://doi.org/10.1126/science.aav1910} {\bibfield
+  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
+  {363}},\ \bibinfo {pages} {1059} (\bibinfo {year} {2019})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Zondiner}\ \emph {et~al.}(2020)\citenamefont
+  {Zondiner}, \citenamefont {Rozen}, \citenamefont {Rodan-Legrain},
+  \citenamefont {Cao}, \citenamefont {Queiroz}, \citenamefont {Taniguchi},
+  \citenamefont {Watanabe}, \citenamefont {Oreg}, \citenamefont {von Oppen},
+  \citenamefont {Stern} \emph {et~al.}}]{zondiner2020cascade}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
+  {Zondiner}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Rozen}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Rodan-Legrain}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Cao}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Queiroz}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Watanabe}}, \bibinfo {author} {\bibfnamefont
+  {Y.}~\bibnamefont {Oreg}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {von Oppen}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Stern}},
+  \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {Cascade of phase
+  transitions and dirac revivals in magic-angle graphene},\ }\href
+  {https://doi.org/https://doi.org/10.1038/s41586-020-2373-y} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {582}},\
+  \bibinfo {pages} {203} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\end{thebibliography}%

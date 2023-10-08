@@ -1,0 +1,95 @@
+\documentclass[%
+%letter,
+reprint,
+%preprint,
+%superscriptaddress,
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose,
+%preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+amsmath,amssymb,
+aps,
+%pra,
+%prb,
+%longbibliography,
+%rmp,
+%prstab,
+%prstper,
+%floatfix,
+]{revtex4-2}
+%========================package=====================
+
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage[colorlinks=true,linkcolor=blue,anchorcolor=blue, citecolor=blue,urlcolor=blue]{hyperref}% add hypertext capabilities
+\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+
+\begin{document}
+%======================== head
+\title{Pressure-enhanced robustness of helical edge state in ABA Tri-layer Graphene}% Force line breaks with \\
+\author{Shijie Fang$^1$}
+\author{Hua Fan$^2$}
+\author{Jifeng Shao$^1$}
+\author{Yue Zhao$^{1,2,3}$}
+\email{Author1 e-mail}
+\affiliation{
+1 Shenzhen Institute for Quantum Science and Engineering (SIQSE), Southern University of Science and Technology (SUSTech), China
+}
+\affiliation{2 Department of Physics, SUSTech, China}
+\affiliation{3 International Quantum Academy, Shenzhen, Guangdong 518048, China}
+%\date{\today}
+%=======================Abstract=====================
+\include{abstract}
+
+\maketitle
+%\tableofcontents
+%========================Introduction==================== 
+\section*{Introduction}
+\input{introduction}
+~\\
+
+\section*{Method and Characterization}
+\input{method}
+~\\
+% ~\\
+\section*{Results}
+\subsection*{{\color{red} Phase diagram of $\nu=0$ at small B}}
+\input{result1.tex}
+~\\
+\subsection*{{\color{red} Helical edge state protected by mirror symmetry}}
+\input{result2.tex}
+~\\
+\subsection*{{\color{red} Extract hopping parameters by Landau Fan diagram}}
+\input{result3.tex}
+~\\
+\subsection*{{\color{red} Features beyond single-particle picture}}
+\input{result4.tex}
+% ~\\
+% ~\\
+\section*{Conclusion}
+\input{Conclusion.tex}
+~\\
+%\appendix
+%\input{appendixes}
+\section*{Acknowlegement}
+\begin{center}
+    Coming Soon !
+\end{center}
+\bibliography{tlg_ref}% Produces the bibliography via BibTeX.
+
+\input{figs_paper.tex}
+
+\end{document}
+% Schematic of experimental setup and transport characterization.
+% (a) Schematics of hydrostatic pressure setup. (b), (c) Schematics of How the displacement field influence the band structure of tri-layer ABA graphene. 
+% When there is no displacement field D, the low energy bands include two monolayer-like bands with linear dispersion (red curve & blue curve), 
+% and two bilayer-like bands with parabolic dispersion (cyan curve & green curve). 
+% When D is non-zero, these two bands hybridize together, opening a gap at the charge neutrality point, making the system insulating. 
+% (d), (e) device characterization before and after 1.0 GPa hydrostatic pressure by using the four-terminal longitudinal resistance $R_{xx}$ as a function of carrier density $n(10^{12}cm^{-2})$
+% and displacement field D(V/nm).  
+% These signatures demonstrate the good quality of our device.
