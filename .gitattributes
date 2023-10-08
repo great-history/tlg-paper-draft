@@ -1,0 +1,2 @@
+*.tex linguist-language=latex
+main/*.tex linguist-language=latex
